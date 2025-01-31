@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{luatexja}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{fontspec}
+\usepackage{xcolor}
+
+\begin{document}
+\textbf{【平方完成】}\\
+y = ax^2 + bx + c \textbf{を平方完成する}\\
+\text{①aに注目して丸かっこで括る}\\
+y = a(x^2 + \frac{b}{a}x) + c\\
+\text{②上記のaで括った丸かっこ内を完全平方式に変換する}\\
+y = a \left( x^2 + \frac{b}{a}x + \left( \frac{b}{2a} \right)^2 - \left( \frac{b}{2a} \right)^2 \right) + c\\
+{③(x + \frac{b}{2a})^2の形に変換して余分な項をだす}\\
+y = a \left( \left( x + \frac{b}{2a} \right)^2 - \left( \frac{b}{2a} \right)^2 \right) + c\\
+\text{④最終形}\\
+y = a \left( x + \frac{b}{2a} \right)^2 - \frac{b^2}{4a} + c\\
+y = a \left( x + \frac{b}{2a} \right)^2 + \left( c - \frac{b^2}{4a} \right)\\
+\text{メモ}\\
+\textbf{符号が間違っているので注意 https://www.meikogijuku.jp/meiko-plus/study/completing-the-square.html}
+\end{document}
